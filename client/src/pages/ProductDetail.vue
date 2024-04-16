@@ -31,13 +31,13 @@
             </div>
           </div>
           <div class="flex mb-2 gap-2 items-center mt-4">
-            <span class="">Price: </span>
+            <span class="">Giá: </span>
             <span class="font-semibold">
               {{ (product.price[size] * quantity).toLocaleString() }}.000 VND</span>
           </div>
           <div class="flex mb-2 gap-2 items-center mt-4">
             <div class="">
-              <span class="">Quantity: </span>
+              <span class="">Số lượng: </span>
               <span class="font-semibold">{{ quantity }}</span>
             </div>
             <div class="flex gap-2">
@@ -105,7 +105,7 @@
                 />
               </svg>
 
-              Buy Now
+              Mua ngay
             </button>
           </router-link>
         </div>

@@ -1,11 +1,11 @@
 <template>
   <div class="container max-w-xl mx-auto my-6" v-if="user">
     <div class="">
-      <h1 class="text-center capitalize text-3xl">Your Information</h1>
+      <h1 class="text-center capitalize text-3xl">Thông tin của bạn</h1>
 
       <div class="my-4 flex gap-4 items-center">
         <div class="">
-          <strong class="text-base">Full Name : </strong>
+          <strong class="text-base">Họ và tên : </strong>
           <span class="capitalize">{{ user.fullName }}</span>
         </div>
 
@@ -28,7 +28,7 @@
       </div>
       <div class="my-4 flex gap-4 items-center">
         <div class="">
-          <strong class="text-base">Phone: </strong>
+          <strong class="text-base">Số điện thoại: </strong>
           <span>{{ user.phone }}</span>
         </div>
         <div class="" @click="handleEditInfo('phone')">
@@ -50,7 +50,7 @@
       </div>
       <div class="my-4 flex gap-4 items-center">
         <div class="">
-          <strong class="text-base">Address : </strong>
+          <strong class="text-base">Địa chỉ : </strong>
           <span class="capitalize">{{ user.address }}</span>
         </div>
         <div class="" @click="handleEditInfo('address')">

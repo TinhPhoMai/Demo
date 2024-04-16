@@ -17,17 +17,17 @@
           Menu
         </div>
         <div class="flex flex-col gap-3">
-          <div><a href="#" class="hover:text-coffee-400">Home</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Our product</a></div>
-          <div><a href="#" class="hover:text-coffee-400">About</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Contact</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Style guild</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Herocode dev</a></div>
+          <div><a href="#" class="hover:text-coffee-400">Trang chủ</a></div>
+          <div><a href="#" class="hover:text-coffee-400">Sản phẩm</a></div>
+          <div><a href="#" class="hover:text-coffee-400">Chúng tôi</a></div>
+          <div><a href="#" class="hover:text-coffee-400">Liên hệ</a></div>
+          <!-- <div><a href="#" class="hover:text-coffee-400">Style guild</a></div>
+          <div><a href="#" class="hover:text-coffee-400">Herocode dev</a></div> -->
         </div>
       </div>
       <div class="basis-1/6">
         <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">
-          Contact us
+          Liên hệ chúng tôi
         </div>
         <div class="flex flex-col gap-3">
           <div><a href="#" class="hover:text-coffee-400">Facebook</a></div>
@@ -38,7 +38,7 @@
       </div>
       <div class="basis-2/6">
         <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">
-          Contact us
+          Liên hệ chúng tôi
         </div>
         <div class="flex flex-col gap-3">
           <div class="hover:text-coffee-400">Chúng tôi luôn sẵn sàng trợ giúp</div>
@@ -46,12 +46,12 @@
             <a
               href="#"
               class="hover:text-coffee-400 text-xl tracking-widest font-bold text-coffee-600"
-              >CT250@gmail.com</a
+              >Tinh-Salam-Binh@gmail.com</a
             >
           </div>
-          <div>
+          <!-- <div>
             <a href="#" class="hover:text-coffee-400">Được cung cấp bởi webflow</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

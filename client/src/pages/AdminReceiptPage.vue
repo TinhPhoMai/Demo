@@ -3,7 +3,7 @@
     <div class="mt-4">
       <div class="container max-w-4xl mx-auto px-8">
         <h1 class="text-center text-2xl font-semibold capitalize">
-          Management Receipt Order
+         Quản lý
         </h1>
         <div
           class="p-2 border rounded-md mt-4"
@@ -13,15 +13,15 @@
           <!-- Info -->
           <div class="border-b">
             <h1 class="font-semibold pb-2">
-              <span class="text-gray-500">Full Name:</span>
+              <span class="text-gray-500">Họ và tên:</span>
               {{ receipt.user.fullName }}
             </h1>
             <h1 class="font-semibold pb-2">
-              <span class="text-gray-500">Address:</span>
+              <span class="text-gray-500">Địa chỉ:</span>
               {{ receipt.user.address }}
             </h1>
             <h1 class="font-semibold pb-2">
-              <span class="text-gray-500">Phone:</span>
+              <span class="text-gray-500">Số lượng:</span>
               {{ receipt.user.phone }}
             </h1>
           </div>
@@ -45,7 +45,7 @@
                   {{ cart.product.title }}
                 </h1>
                 <p class="text-coffee-600 text-sm my-2">
-                  <span class="text-gray-600">Quantity : </span>
+                  <span class="text-gray-600">Số lượng : </span>
                   {{ cart.quantity }}
                 </p>
                 <p class="text-coffee-600 text-sm my-2">
@@ -75,7 +75,7 @@
                 :disabled="loading"
                 class="bg-red-500 px-4 py-1 text-sm text-white rounded-sm hover:opacity-80"
               >
-                {{ !loading ? "Delete" : "Loading..." }}
+                {{ !loading ? "Xóa" : "Đang tải..." }}
               </button>
             </div>
           </div>

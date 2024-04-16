@@ -105,7 +105,7 @@
         <li class="ct-top-menu-profile flex gap-4">
           <div href="" class="flex items-center" v-if="!user">
             <router-link :to="{ name: 'Login', params: {} }">
-              <span class="mx-2">LOGIN</span>
+              <span class="mx-2">Đăng nhập</span>
             </router-link>
           </div>
           <div class="flex items-center relative group" v-else>

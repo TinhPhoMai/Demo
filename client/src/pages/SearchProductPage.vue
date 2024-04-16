@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto my-4" v-if="products.length > 0">
     <!-- Title -->
-    <h1 class="text-xl font-semibold">Results</h1>
+    <h1 class="text-xl font-semibold">Kết quả</h1>
 
     <!-- Product -->
     <div class="grid grid-cols-5 gap-4 mt-4">
@@ -32,7 +32,7 @@
           @click="prevPage(pagination)"
           class="relative inline-flex items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20"
         >
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">Trước</span>
           <!-- Heroicon name: mini/chevron-left -->
           <svg
             class="h-5 w-5"
@@ -83,7 +83,7 @@
     </div>
   </div>
   <div class="my-8" v-else>
-    <h1 class="text-center text-2xl">Product not found!</h1>
+    <h1 class="text-center text-2xl">Sản phẩm không có!</h1>
   </div>
 </template>
 
