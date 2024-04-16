@@ -125,7 +125,7 @@
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'Admin-receipt', params: {} }">
-                  <p class="capitalize">Mangement receipt order</p>
+                  <p class="capitalize">Quản Lí Đơn Hàng</p>
                 </router-link>
               </li>
               <li

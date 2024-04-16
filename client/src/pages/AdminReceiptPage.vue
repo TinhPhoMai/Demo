@@ -109,7 +109,7 @@ export default {
       // Submit data
       try {
         loading.value = true;
-        if (window.confirm("Bạn chắc chắn xác nhận đơn hàng này?")) {
+        if (window.confirm("Bạn  xác nhận đơn hàng này?")) {
           // Call api
           await receiptApi.confirmReceipt(idReceipt);
 
@@ -128,7 +128,7 @@ export default {
       // Submit data
       try {
         loading.value = true;
-        if (window.confirm("You confirm delete cart?")) {
+        if (window.confirm("Cậu Muốn Xóa Đơn Hàng?")) {
           // Call api
           await receiptApi.deleteReceipt(idReceipt);
 

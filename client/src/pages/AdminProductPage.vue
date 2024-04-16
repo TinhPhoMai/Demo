@@ -229,7 +229,7 @@ export default {
     const handleDelete = async (idProduct) => {
       // Submit data
       try {
-        if (window.confirm("You confirm delete product?")) {
+        if (window.confirm("Cậu Có Muốn Xóa Sản Phẩm?")) {
           // Call api
           await productsApi.deleteProduct(idProduct);
           alert("Delete successfully");

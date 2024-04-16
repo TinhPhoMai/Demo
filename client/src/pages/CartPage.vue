@@ -129,7 +129,7 @@ export default {
     };
 
     const handleDeleteCart = async (idCart) => {
-      if (window.confirm("Remove this product in cart?")) {
+      if (window.confirm("Cậu Có Muốn Xóa Khỏi Giỏ Hàng?")) {
         loading.value = true;
         try {
           // Call api
@@ -144,7 +144,7 @@ export default {
     };
 
     const handleOrder = async () => {
-      if (window.confirm("You confirm order?")) {
+      if (window.confirm("Cậu Xác Nhận Đơn Hàng Chứ?")) {
         isPendingSubmiting.value = true;
         try {
           // Call api order
