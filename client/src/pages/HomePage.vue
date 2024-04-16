@@ -1,20 +1,20 @@
 <template>
   <main class="min-h-screen">
     <Banner />
-    <Subheadline title="OUR PRODUCT" />
+    <Subheadline title="Sản Phẩm Của Chúng Tôi" />
 
     <Advertisement />
-    <Subheadline title="FEATURED MUGS" />
+    <Subheadline title="Tính Năng Sản Phẩm" />
 
     <FeaturedProduct :featureProduct="featureProduct" />
 
-    <Subheadline title="more products" />
+    <Subheadline title="Xem Thêm" />
 
     <MoreProduct :moreProducts="moreProduct" />
 
     <Parallax />
 
-    <Subheadline title="COFFEE MAGAZINE" />
+    <Subheadline title="Tạp Chí Cà Phê" />
 
     <CoffeeMegazine />
   </main>

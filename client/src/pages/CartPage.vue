@@ -1,6 +1,6 @@
 <template>
   <div class="container max-w-4xl mx-auto my-6" v-if="user">
-    <h1 class="text-center capitalize text-3xl">Your Cart</h1>
+    <h1 class="text-center capitalize text-3xl">Giỏ hàng của bạn</h1>
     <!-- Start: Render cart -->
     <div
       class="flex justify-between w-full my-4"
@@ -20,7 +20,7 @@
         <div class="">
           <h1 class="text-base font-semibold">{{ cart.product.title }}</h1>
           <p class="text-coffee-600 text-sm my-2">
-            <span class="text-gray-600">Quantity : </span> {{ cart.quantity }}
+            <span class="text-gray-600">Số lượng : </span> {{ cart.quantity }}
           </p>
           <p class="text-coffee-600 text-sm my-2">
             <span class="text-gray-600">Size : </span> {{ cart.size }}
@@ -63,16 +63,16 @@
           @click="handleDeleteCart(cart._id)"
           class="p-1 bg-red-500 hover:opacity-80 cursor-pointer rounded-sm text-white"
         >
-          <p class="text-center text-sm">Delete</p>
+          <p class="text-center text-sm">Xóa</p>
         </div>
       </div>
     </div>
     <!-- Start: Render when not product -->
     <div class="my-4" v-if="carts.length === 0">
-      <h1 class="text-center text-xl">Your cart is empty!</h1>
+      <h1 class="text-center text-xl">Giỏ hàng của bạn trống trơn!</h1>
       <router-link :to="{ name: 'Product' }" class="text-center">
         <p class="text-center hover:underline capitalize text-blue-700 my-2">
-          Buy product
+          Mua sản phẩm
         </p>
       </router-link>
     </div>

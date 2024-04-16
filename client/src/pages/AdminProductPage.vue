@@ -3,7 +3,7 @@
     <div class="mt-4">
       <div class="container mx-auto px-8">
         <h1 class="text-center text-2xl font-semibold capitalize">
-          Management products
+          Quản lý sản phẩm
         </h1>
 
         <!-- Start: Simple navbar -->
@@ -12,7 +12,7 @@
             <li
               class="bg-coffee-400 text-white capitalize px-4 py-1 rounded-md text-sm"
             >
-              <span>All Product</span>
+              <span>Tất cả sản phẩm</span>
             </li>
           </ul>
         </div>
@@ -63,7 +63,7 @@
             @click="prevPage()"
             class="relative inline-flex items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20"
           >
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">Trước</span>
             <!-- Heroicon name: mini/chevron-left -->
             <svg
               class="h-5 w-5"
@@ -89,7 +89,7 @@
             @click="nextPage(pagination)"
             class="relative inline-flex items-center rounded-r-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20"
           >
-            <span class="sr-only">Next</span>
+            <span class="sr-only">Tiếp</span>
             <!-- Heroicon name: mini/chevron-right -->
             <svg
               class="h-5 w-5"

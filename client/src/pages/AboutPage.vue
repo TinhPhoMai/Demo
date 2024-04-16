@@ -10,38 +10,35 @@
       </div>
       <div class="w-[75%] px-4">
         <h1 class="text-3xl font-semibold capitalize mb-2">
-          Our stores are available in all provinces
+          Cửa hàng của chúng tôi có mặt ở khắp mọi nơi các tỉnh thành
         </h1>
         <p class="leading-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis a
-          nemo quas neque doloribus minus obcaecati sint quia blanditiis,
-          accusantium officia odit porro ullam cupiditate quasi labore itaque
-          eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          omnis a nemo quas neque doloribus minus obcaecati sint quia
-          blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Fugit omnis a nemo quas neque doloribus minus obcaecati sint
-          quia blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos.
+          Bản thân công ty đã là một công ty rất thành công.
+          Mọi người đều trốn tránh những người chưa bị mù quáng bởi nỗi đau,
+          bởi vì anh ta ghét công việc của những người tố cáo bằng những lời xu nịnh,
+          và do đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động. Bản thân công ty
+          đã là một công ty rất thành công. Mọi người đều trốn tránh những người chưa bị mù quáng bởi nỗi đau,
+          bởi vì anh ta ghét công việc của những người tố cáo bằng những lời xu nịnh, và do đó ghét họ với bất kỳ
+          ham muốn nào như thể họ là lao động. Bản thân công ty đã là một công ty rất thành công. Mọi người đều trốn
+          tránh những người chưa bị mù quáng bởi nỗi đau, bởi vì anh ta ghét công việc của những người tố cáo bằng những lời xu nịnh, và do đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động.
         </p>
       </div>
     </div>
     <div class="flex gap-2 mt-16">
       <div class="w-[75%] px-4">
         <h1 class="text-3xl capitalize font-semibold mb-2">
-          staff is always friendly
+          Nhân viên thân thiện
         </h1>
         <p class="leading-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis a
-          nemo quas neque doloribus minus obcaecati sint quia blanditiis,
-          accusantium officia odit porro ullam cupiditate quasi labore itaque
-          eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          omnis a nemo quas neque doloribus minus obcaecati sint quia
-          blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Fugit omnis a nemo quas neque doloribus minus obcaecati sint
-          quia blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos.
+          Bản thân công ty đã là một công ty rất thành công. Mọi người đều trốn tránh những người chưa
+          bị mù quáng bởi nỗi đau, bởi vì anh ta ghét công việc của những người tố cáo bằng những lời
+          xu nịnh, và do đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động. Bản thân công ty
+          đã là một công ty rất thành công. Mọi người đều trốn tránh những người chưa bị mù quáng bởi
+          nỗi đau, bởi vì anh ta ghét công việc của những người tố cáo bằng những lời xu nịnh, và do
+          đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động. Bản thân công ty đã là một công
+          ty rất thành công. Mọi người đều trốn tránh những người chưa bị mù quáng bởi nỗi đau, bởi
+          vì anh ta ghét công việc của những người tố cáo bằng những lời xu nịnh, và do đó ghét họ
+          với bất kỳ ham muốn nào như thể họ là lao động.
         </p>
       </div>
       <div class="w-[20%] rounded-sm overflow-hidden">
@@ -62,19 +59,18 @@
       </div>
       <div class="w-[75%] px-4">
         <h1 class="text-3xl capitalize font-semibold mb-2">
-          We are always looking for new drinks
+          Chúng tôi luôn tìm kiếm đồ uống mới cập nhật từng ngày
         </h1>
         <p class="leading-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis a
-          nemo quas neque doloribus minus obcaecati sint quia blanditiis,
-          accusantium officia odit porro ullam cupiditate quasi labore itaque
-          eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          omnis a nemo quas neque doloribus minus obcaecati sint quia
-          blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Fugit omnis a nemo quas neque doloribus minus obcaecati sint
-          quia blanditiis, accusantium officia odit porro ullam cupiditate quasi
-          labore itaque eos.
+          Bản thân công ty đã là một công ty rất thành công. Mọi người đều trốn tránh những người
+          chưa bị mù quáng bởi nỗi đau, bởi vì anh ta ghét công việc của những người tố cáo bằng 
+          những lời xu nịnh, và do đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động. 
+          Bản thân công ty đã là một công ty rất thành công. Mọi người đều trốn tránh những 
+          người chưa bị mù quáng bởi nỗi đau, bởi vì anh ta ghét công việc của những người tố 
+          cáo bằng những lời xu nịnh, và do đó ghét họ với bất kỳ ham muốn nào như thể họ là 
+          lao động. Bản thân công ty đã là một công ty rất thành công. Mọi người đều trốn tránh 
+          những người chưa bị mù quáng bởi nỗi đau, bởi vì anh ta ghét công việc của những người 
+          tố cáo bằng những lời xu nịnh, và do đó ghét họ với bất kỳ ham muốn nào như thể họ là lao động.
         </p>
       </div>
     </div>

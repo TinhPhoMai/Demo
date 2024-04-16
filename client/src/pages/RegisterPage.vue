@@ -2,18 +2,18 @@
   <main class="mb-8">
     <div class="mt-4">
       <div class="container mx-auto px-8 w-1/2">
-        <h1 class="text-center text-2xl font-semibold uppercase">register</h1>
+        <h1 class="text-center text-2xl font-semibold uppercase">Đăng ký</h1>
         <!-- Start: Form -->
         <form @submit.prevent="handleSubmit" class="mt-4">
           <div class="row flex gap-4">
             <label class="flex flex-col mb-3 basis-1/2" for="fullname">
-              <span class="font-semibold">FullName</span>
+              <span class="font-semibold">Họ và tên</span>
               <input
                 v-model="fullName"
                 id="fullname"
                 class="px-4 py-3 rounded-lg border border-gray-100 mt-1"
                 type="text"
-                placeholder="FullName"
+                placeholder="Họ và tên"
               />
               <span
                 v-if="errors.fullName"
@@ -22,13 +22,13 @@
               >
             </label>
             <label class="flex flex-col mb-3 basis-1/2" for="phone">
-              <span class="font-semibold">Phone</span>
+              <span class="font-semibold">Số điện thoại</span>
               <input
                 v-model="phone"
                 id="phone"
                 class="px-4 py-3 rounded-lg border border-gray-100 mt-1"
                 type="text"
-                placeholder="Number"
+                placeholder="Số điện thoại"
               />
               <span
                 v-if="errors.phone"
@@ -39,13 +39,13 @@
           </div>
           <div class="row">
             <label class="flex flex-col mb-3" for="email">
-              <span class="font-semibold">Address</span>
+              <span class="font-semibold">Địa chỉ</span>
               <input
                 v-model="address"
                 id="address"
                 class="px-4 py-3 rounded-lg border border-gray-100 mt-1"
                 type="text"
-                placeholder="Can tho..."
+                placeholder="Cần thơ..."
               />
               <span
                 v-if="errors.address"
@@ -56,7 +56,7 @@
           </div>
           <div class="row">
             <label class="flex flex-col mb-3" for="email">
-              <span class="font-semibold">Email Address</span>
+              <span class="font-semibold">Địa chỉ email</span>
               <input
                 v-model="email"
                 id="email"
@@ -68,14 +68,14 @@
           </div>
           <div class="row">
             <label class="flex flex-col mb-3" for="password">
-              <span class="font-semibold">Password</span>
+              <span class="font-semibold">Mật khẩu</span>
               <input
                 v-model="password"
                 autocomplete="on"
                 id="password"
                 class="px-4 py-3 rounded-lg border border-gray-100 mt-1"
                 type="password"
-                placeholder="Enter your password..."
+                placeholder="Nhập mật khẩu của bạn..."
               />
               <span
                 v-if="errors.password"
@@ -103,19 +103,19 @@
               class="py-3 text-center text-white bg-orange-400 font-bold rounded-lg w-full bg-primary"
               type="submit"
             >
-              {{ !loading ? "Sign Up" : "Loading..." }}
+              {{ !loading ? "Đăng ký" : "Đang tải..." }}
             </button>
           </div>
         </form>
 
         <!-- Start: Direction -->
         <div class="w-full text-center mt-6">
-          <span class="">Already account?. </span>
+          <span class="">Đã có tài khoản?. </span>
           <span>
             <router-link
               :to="{ name: 'Login', params: {} }"
               class="text-primary font-bold"
-              >Sign In</router-link
+              >ĐĂNG NHẬP</router-link
             >
           </span>
         </div>

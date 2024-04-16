@@ -1,31 +1,31 @@
 <template>
   <div class="container mx-auto my-4" v-if="products.length > 0">
     <!-- Title -->
-    <h1 class="text-xl font-semibold">All Products</h1>
+    <h1 class="text-xl font-semibold">Tất cả sản phẩm</h1>
 
     <!-- Filter -->
     <form action="" class="flex gap-4 items-center mb-4 mt-2">
       <div class="row flex items-center gap-2">
-        <span>Price: </span>
+        <span>Giá: </span>
         <select
           :value="priceRef"
           @change="onSortPrice($event)"
           class="bg-gray-50 border-gray-800 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
-          <option selected value="1">Increase</option>
-          <option value="-1">Decrease</option>
+          <option selected value="1">Cao</option>
+          <option value="-1">Thấp</option>
         </select>
         <!-- Dropdown menu -->
       </div>
       <div class="row flex items-center gap-2">
-        <span>Version: </span>
+        <span>Phiên bản: </span>
         <select
           :value="versionRef"
           @change="onSortVersion($event)"
           class="bg-gray-50 border-gray-800 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
-          <option selected value="-1">New</option>
-          <option value="1">Old</option>
+          <option selected value="-1">Mới</option>
+          <option value="1">Cũ</option>
         </select>
         <!-- Dropdown menu -->
       </div>

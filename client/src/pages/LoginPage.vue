@@ -2,12 +2,12 @@
   <main class="mb-8">
     <div class="mt-4">
       <div class="container mx-auto px-8 w-1/2">
-        <h1 class="text-center text-2xl font-semibold uppercase">Login</h1>
+        <h1 class="text-center text-2xl font-semibold uppercase">Đăng nhập</h1>
         <!-- Start: Form -->
         <form @submit.prevent="handleSubmit" class="mt-4">
           <div class="row">
             <label class="flex flex-col mb-3" for="email">
-              <span class="font-semibold">Email Address</span>
+              <span class="font-semibold">Địa chỉ email</span>
               <input
                 v-model="email"
                 id="email"
@@ -19,14 +19,14 @@
           </div>
           <div class="row">
             <label class="flex flex-col mb-3" for="password">
-              <span class="font-semibold">Password</span>
+              <span class="font-semibold">Mật khẩu</span>
               <input
                 v-model="password"
                 autocomplete="on"
                 id="password"
                 class="px-4 py-3 rounded-lg border border-gray-100 mt-1"
                 type="password"
-                placeholder="Enter your password..."
+                placeholder="Nhập mật khẩu của bạn..."
               />
             </label>
           </div>
@@ -50,7 +50,7 @@
                 class="py-3 text-center text-white bg-orange-400 font-bold rounded-lg w-full bg-primary"
                 type="submit"
               >
-                {{ !loading ? "Sign In" : "Loading..." }}
+                {{ !loading ? "Đăng nhập" : "Đang tải..." }}
               </button>
             </div>
           </div>
@@ -58,12 +58,12 @@
 
         <!-- Start: Direction -->
         <div class="w-full text-center mt-6">
-          <span class="">I'm a new user. </span>
+          <span class="">Tôi là người dùng mới. </span>
           <span>
             <router-link
               :to="{ name: 'Register', params: {} }"
               class="text-primary font-bold"
-              >Sign Up</router-link
+              >Đăng ký</router-link
             >
           </span>
         </div>
