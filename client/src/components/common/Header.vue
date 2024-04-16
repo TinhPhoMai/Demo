@@ -22,7 +22,7 @@
           :class="pathName === '/' ? 'ct-top-menu-item-active' : ''"
         >
           <router-link :to="{ name: 'Home', params: {} }">
-            <span class="mx-2">TRANG CHỦ</span>
+            <span class="mx-2">HOME</span>
           </router-link>
         </li>
         <li
@@ -30,7 +30,7 @@
           :class="pathName === '/product' ? 'ct-top-menu-item-active' : ''"
         >
           <router-link :to="{ name: 'Product', params: {} }">
-            <span class="mx-2">SẢN PHẨM</span>
+            <span class="mx-2">PRODUCT</span>
           </router-link>
         </li>
         <li
@@ -38,7 +38,7 @@
           :class="pathName === '/about' ? 'ct-top-menu-item-active' : ''"
         >
           <router-link :to="{ name: 'About', params: {} }">
-            <span class="mx-2">CHÚNG TÔI</span>
+            <span class="mx-2">ABOUT</span>
           </router-link>
         </li>
         <li>
@@ -66,13 +66,13 @@
                 id="name"
                 class="px-8 h-full rounded-md py-3 border w-[300px] border-gray-100 text-sm focus:ring-blue-500 focus:border-blue-500"
                 type="name"
-                placeholder="Tìm kiếm sản phẩm..."
+                placeholder="Search by name product..."
               />
               <button
                 @click="handleSearch"
                 class="ml-2 border-r-0 rounded-tr-md rounded-br-md h-full text-sm text-black px-2 border absolute top-[50%] w -translate-y-1/2 right-0"
               >
-                Tìm
+                Search
               </button>
             </div>
           </form>
@@ -94,7 +94,7 @@
               />
             </svg>
 
-            <span class="mx-2">GIỎ HÀNG</span>
+            <span class="mx-2">CART</span>
             <span
               class="ct-badge-circle bg-orange-400 text-white"
               v-if="quantityCart > 0"
@@ -105,7 +105,7 @@
         <li class="ct-top-menu-profile flex gap-4">
           <div href="" class="flex items-center" v-if="!user">
             <router-link :to="{ name: 'Login', params: {} }">
-              <span class="mx-2">ĐĂNG NHẬP</span>
+              <span class="mx-2">Đăng nhập</span>
             </router-link>
           </div>
           <div class="flex items-center relative group" v-else>
@@ -140,7 +140,7 @@
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'Profile', params: {} }">
-                  <p class="capitalize">Thông tin của bạn</p>
+                  <p class="capitalize">Thông tin cá nhân</p>
                 </router-link>
               </li>
 

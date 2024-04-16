@@ -22,7 +22,7 @@
       <div class="my-2">
         <span class="text-lg text-coffee-600 capitalize">Giá:</span>
         <span class="ml-2 text-black font-semibold"
-          >{{ product.price.S.toLocaleString() }} VND</span
+          >{{ product.price.S.toLocaleString() }}.000 VND</span
         >
       </div>
     </div>

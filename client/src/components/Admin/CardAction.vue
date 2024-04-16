@@ -40,7 +40,7 @@
               />
             </svg>
           </span>
-          <span>Update</span>
+          <span>Cập nhật</span>
         </button>
         <button
           @click="deleteProduct"
@@ -62,7 +62,7 @@
               />
             </svg>
           </span>
-          <span>Delete</span>
+          <span>Xoá</span>
         </button>
       </div>
     </div>
