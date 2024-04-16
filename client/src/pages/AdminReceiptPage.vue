@@ -55,7 +55,7 @@
             </div>
             <div class="flex flex-col gap-2">
               <p class="text-base text-red-500">
-                {{ cart.price.toLocaleString() }} VND
+                {{ cart.price.toLocaleString() }}.000 VND
               </p>
             </div>
           </div>

@@ -50,7 +50,7 @@
         </div>
         <div class="text-center">
           <span class="ml-2 text-coffee-400"
-            >{{ product.price.S.toLocaleString() }} VND</span
+            >{{ product.price.S.toLocaleString() }}.000 VND</span
           >
         </div>
       </div>

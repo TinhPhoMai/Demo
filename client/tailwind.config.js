@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Karla: ["Karla", "sans-serif"],
+        playfair: ["Playfair Display", "sans-serif"],
       },
       colors: {
         coffee: {
