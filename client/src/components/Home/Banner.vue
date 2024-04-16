@@ -6,18 +6,18 @@
       class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-60"
     >
       <div class="mx-16 text-white text-center">
-        <div class="uppercase mb-6">Welcome To Our Store</div>
+        <div class="uppercase mb-6">Chào Mừng Đến Với Cửa Hàng Chúng Tôi</div>
         <div class="font-medium text-5xl mb-6 uppercase">Coffee Store</div>
         <div class="mb-6">
-          We hope to bring you great coffee specials that will help you create
-          inspiration
+          
+          Chúng tôi mang đến cho bạn Những Ly Coffee đặc biệt để giúp bạn Tỉnh Táo và Sáng Tạo
         </div>
         <div class="font-medium flex justify-center">
           <router-link :to="{ name: 'Product', params: {} }">
             <div
               class="bg-white w-max rounded-sm text-gray-900 px-8 py-4 tracking-wider text-xs uppercase cursor-pointer hover:opacity-90"
             >
-              Explore Products
+             Khám phá sản phẩm
             </div>
           </router-link>
         </div>

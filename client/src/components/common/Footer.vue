@@ -6,8 +6,7 @@
       <div class="basis-2/6">
         <div class="font-bold text-xl mb-4 text-gray-800">Coffee Store</div>
         <div class="mb-20 md:mb-8">
-          Delivering the best coffee life since 1996. From coffee geeks to the
-          real ones.
+         Mang đến cuộc sống cà phê tốt nhất kề từ năm 1996. Từ những người đam mê cà phê đến những người thực sự.
         </div>
         <div class="text-gray-400 hover:text-coffee-400">
           Coffee Store Inc. © 2024
@@ -42,7 +41,7 @@
           Contact us
         </div>
         <div class="flex flex-col gap-3">
-          <div class="hover:text-coffee-400">We’re Always Happy to Help</div>
+          <div class="hover:text-coffee-400">Chúng tôi luôn sẵn sàng trợ giúp</div>
           <div class="mb-16">
             <a
               href="#"
@@ -51,7 +50,7 @@
             >
           </div>
           <div>
-            <a href="#" class="hover:text-coffee-400">Powered by Webflow</a>
+            <a href="#" class="hover:text-coffee-400">Được cung cấp bởi webflow</a>
           </div>
         </div>
       </div>

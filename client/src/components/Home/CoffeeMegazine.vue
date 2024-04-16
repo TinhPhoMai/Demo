@@ -21,16 +21,15 @@
       <div
         class="ct-magazine-post basis-1/2 pl-8 xl:pl-12 text-center md:text-left"
       >
-        <div class="text-gray-500 font-medium text-[16px]">PREMIUM OFFER</div>
-        <div class="text-2xl my-3 lg:my-2">Get our Coffee Magazine</div>
+        <div class="text-gray-500 font-medium text-[16px]">Bộ Sưu Tập Đặc Biệt</div>
+        <div class="text-2xl my-3 lg:my-2">Hãy Khám Phá Bộ Sưu Tập Của Chúng Tôi</div>
         <div class="text-gray-500 leading-7 mb-3 lg:mb-6">
-          The most versatile furniture system ever created. Designed to fit your
-          life.
+          Không gian nội thất linh hoạt nhất từng được tạo ra. Được thiết kế dành riêng cho bạn.
         </div>
         <div
           class="ct-button bg-gray-900 hover:opacity-90 text-white inline-block"
         >
-          Start shopping
+          Hãy Bắt Đầu
         </div>
       </div>
     </div>

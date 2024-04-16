@@ -15,14 +15,12 @@
         <div
           class="text-2xl font-medium mb-4 capitalize leading-10 tracking-wide"
         >
-          Our products are processed using modern techniques.
+          Sản phẩm của chúng tôi được xử lý bằng công nghệ hiện đại.
         </div>
         <div class="text-gray-500 leading-7 mb-6">
-          The ultimate self-indulgent drink for those who like sweetness or want
-          to enjoy a unique combination of dessert and drink.. <br />The drink
-          that wakes up the energy of the day is suitable for those who are new
-          to the world of coffee or addicted to coffee but want to discover more
-          new flavors.
+          Thức uống tuyệt hảo dành cho những ai thích vị ngọt hoặc muốn sự kết hợp động đáo giữa các món trán miệng và đồ uống.
+          <br />
+          Đánh thức năng lượng mỗi ngày phù hợp với những ai mới bước vào thế giới cà phê hoặc nghiện cà phê nhưng người muốn khám phá thêm nhiều hương vị mới.
         </div>
         <div class="">
           <router-link :to="{ name: 'Home', params: {} }">
@@ -30,7 +28,7 @@
               href=""
               class="text-coffee-400 uppercase pb-2 hover:text-coffee-600 text-base relative after:bg-coffee-200 hover:after:bg-coffee-600 after:absolute after:w-full after:h-0.5 after:bottom-0 after:left-0 after:transition-all after:duration-700 after:ease-in-out"
             >
-              See how to make
+              Xem cách làm
             </span></router-link
           >
         </div>
