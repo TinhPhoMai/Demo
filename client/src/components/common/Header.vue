@@ -133,14 +133,14 @@
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'Admin-product', params: {} }">
-                  <p class="capitalize">Mangement products</p>
+                  <p class="capitalize">Quản lý sản phẩm</p>
                 </router-link>
               </li>
               <li
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'Profile', params: {} }">
-                  <p class="capitalize">Your Infomation</p>
+                  <p class="capitalize">Thông tin cá nhân</p>
                 </router-link>
               </li>
 
@@ -148,14 +148,14 @@
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'History-cart', params: {} }">
-                  <p class="capitalize">Order History</p>
+                  <p class="capitalize">Lịch sử đơn hàng</p>
                 </router-link>
               </li>
               <li
                 @click="handleLogout"
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
-                <p class="capitalize">Logout</p>
+                <p class="capitalize">Đăng xuất</p>
               </li>
             </ul>
           </div>

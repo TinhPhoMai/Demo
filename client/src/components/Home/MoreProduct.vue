@@ -55,10 +55,10 @@
         </div>
         <div class="text-center">
           <span class="text-base text-coffee-600">
-            {{ product.price.S.toLocaleString() }} VND</span
+            {{ product.price.S.toLocaleString() }}.000 VND</span
           >
           <span class="ml-2 text-gray-400 line-through">
-            {{ (product.price.S * 3).toLocaleString() }} VND</span
+            {{ (product.price.S * 3).toLocaleString() }}.000 VND</span
           >
         </div>
       </div>

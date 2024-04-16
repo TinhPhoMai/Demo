@@ -33,9 +33,7 @@
           <div class="flex mb-2 gap-2 items-center mt-4">
             <span class="">Price: </span>
             <span class="font-semibold">
-              {{ (product.price[size] * quantity).toLocaleString() }}
-              VND</span
-            >
+              {{ (product.price[size] * quantity).toLocaleString() }}.000 VND</span>
           </div>
           <div class="flex mb-2 gap-2 items-center mt-4">
             <div class="">
