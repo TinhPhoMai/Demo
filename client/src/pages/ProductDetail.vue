@@ -84,7 +84,7 @@
               />
             </svg>
 
-            Add to cart
+            Thêm vào giỏ hàng
           </button>
           <router-link :to="{ name: 'Cart' }">
             <button
