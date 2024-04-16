@@ -133,7 +133,7 @@
                 class="p-2 px-4 hover:bg-blue-500 text-gray-600 hover:text-white"
               >
                 <router-link :to="{ name: 'Admin-product', params: {} }">
-                  <p class="capitalize">Mangement products</p>
+                  <p class="capitalize">Quản lý sản phẩm</p>
                 </router-link>
               </li>
               <li

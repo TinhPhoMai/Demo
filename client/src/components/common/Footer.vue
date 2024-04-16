@@ -27,7 +27,7 @@
       </div>
       <div class="basis-1/6">
         <div class="uppercase font-semibold tracking-wider text-gray-600 mb-4">
-          Liên hệ chúng tôi
+          Mạng xã hội
         </div>
         <div class="flex flex-col gap-3">
           <div><a href="#" class="hover:text-coffee-400">Facebook</a></div>

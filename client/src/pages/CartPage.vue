@@ -84,7 +84,7 @@
         @click="handleOrder"
         class="w-full bg-blue-800 hover:opacity-80 capitalize p-3 rounded-md text-white"
       >
-        {{ !isPendingSubmiting ? "Order" : "Loading..." }}
+        {{ !isPendingSubmiting ? "Đặt hàng" : "Đang tải..." }}
       </button>
     </div>
   </div>
