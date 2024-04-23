@@ -21,7 +21,7 @@
               {{ receipt.user.address }}
             </h1>
             <h1 class="font-semibold pb-2">
-              <span class="text-gray-500">Số lượng:</span>
+              <span class="text-gray-500">Số Điện Thoại:</span>
               {{ receipt.user.phone }}
             </h1>
           </div>
@@ -135,7 +135,7 @@ export default {
           // Get again data
           store.dispatch("receipts/getReceipts");
 
-          alert("Delete successfully");
+          alert("Xoá Đơn Hàng Thành Công");
         }
       } catch (err) {
         console.log(err);

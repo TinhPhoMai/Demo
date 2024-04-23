@@ -12,8 +12,8 @@
           @change="onSortPrice($event)"
           class="bg-gray-50 border-gray-800 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
-          <option selected value="1">Cao</option>
-          <option value="-1">Thấp</option>
+          <option selected value="1">Thấp</option>
+          <option value="-1">Cao</option>
         </select>
         <!-- Dropdown menu -->
       </div>

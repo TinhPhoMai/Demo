@@ -163,7 +163,7 @@ export default {
         // Update data in vuex store
         store.dispatch("carts/getCarts");
 
-        alert("Add to cart successfully");
+        alert("Thêm Sản Phẩm Vào Giỏ Hàng Thành Công");
       } catch (err) {
         console.log(err);
       }

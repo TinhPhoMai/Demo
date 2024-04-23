@@ -24,9 +24,9 @@
               class="group w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:duration-700 hover:ease-in-out relative"
             >
               <div
-                class="absolute w-[100px] text-sm rounded-sm bg-slate-100 py-2 px-4 top-3 right-3 text-center font-semibold"
+                class="absolute w-[100px] text-sm rounded-sm bg-slate-100 py-2 px-4 top-3 right-3 text-center font-semibold text-red-500"
               >
-                Đang giảm giá
+                ON SALE!
               </div>
               <div
                 class="ct-button bg-slate-100 absolute hidden group-hover:block group-hover:animate-fadeIn bottom-3 w-[90%] left-1/2 -translate-x-1/2 text-center"

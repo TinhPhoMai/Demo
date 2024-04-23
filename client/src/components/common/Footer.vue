@@ -44,7 +44,7 @@
           <div class="hover:text-coffee-400">Chúng tôi luôn sẵn sàng trợ giúp</div>
           <div class="mb-16">
             <a
-              href="#"
+              href="https://mail.google.com/mail/u/0/#inbox"
               class="hover:text-coffee-400 text-xl tracking-widest font-bold text-coffee-600"
               >Tinh-Salam-Binh@gmail.com</a
             >
