@@ -4,7 +4,14 @@
   >
     <div class="flex flex-col text-center md:text-left md:flex-row gap-8">
       <div class="basis-2/6">
-        <div class="font-bold text-xl mb-4 text-gray-800">Coffee Store</div>
+        <div class="font-bold text-xl mb-4 text-gray-800">
+          <router-link
+          :to="{ name: 'Home', params: {} }"
+          class="flex items-center"
+        >
+          <span class="">Coffee Store</span>
+        </router-link>
+        </div>
         <div class="mb-20 md:mb-8">
          Mang đến cuộc sống cà phê tốt nhất kề từ năm 1996. Từ những người đam mê cà phê đến những người thực sự.
         </div>
@@ -17,10 +24,21 @@
           Menu
         </div>
         <div class="flex flex-col gap-3">
-          <div><a href="#" class="hover:text-coffee-400">Trang chủ</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Sản phẩm</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Chúng tôi</a></div>
-          <div><a href="#" class="hover:text-coffee-400">Liên hệ</a></div>
+          <div>
+          <router-link :to="{ name: 'Home', params: {} }">
+            <span class="mx-2">Trang Chủ</span>
+          </router-link>
+          </div>
+          <div>  <router-link :to="{ name: 'Product', params: {} }">
+            <span class="mx-2">Sản phẩm</span></router-link>
+          </div>
+
+        <div>
+          <router-link :to="{ name: 'About', params: {} }">
+            <span class="mx-2">Về chúng tôi</span>
+          </router-link>
+        </div>
+         
           <!-- <div><a href="#" class="hover:text-coffee-400">Style guild</a></div>
           <div><a href="#" class="hover:text-coffee-400">Herocode dev</a></div> -->
         </div>

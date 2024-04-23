@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         playfair: ["Playfair Display", "sans-serif"],
+        playfair: ['Playfair Display', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['Open Sans', 'sans-serif'],
       },
       colors: {
         coffee: {
